@@ -1,0 +1,6 @@
+<!-- -->
+<launch>
+    <node pkg="cuda_pcl_ros" type="cuda_filter_pcl" name="cuda_filter_pcl" args="$(find ga_perception_res)/res/pcd/sample.pcd" output="screen">
+    </node>
+
+</launch>

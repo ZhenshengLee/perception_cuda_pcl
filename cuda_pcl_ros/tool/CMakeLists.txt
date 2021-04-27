@@ -1,4 +1,4 @@
-set(TOOL_NAME "cuda-pcl-filter")
+set(TOOL_NAME "cuda_filter_pcl")
 cuda_add_executable(${TOOL_NAME} ./main.cpp)
 target_compile_definitions(${TOOL_NAME} PRIVATE
 )

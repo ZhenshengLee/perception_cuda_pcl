@@ -271,10 +271,7 @@ int main(int argc, const char **argv)
     return(-1);
   }
 
-  for(int i = 0; i < 10; i++)
-  {
-    testCUDA(cloudSrc, cloudDst);
-  }
+  testCUDA(cloudSrc, cloudDst);
   testPCL(cloudSrc, cloudDst);
 
   return 0;
